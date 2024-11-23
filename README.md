@@ -20,15 +20,15 @@ Una clase de JavaScript sencilla para crear una navegación suave en páginas de
 2. Incluid el archivo en vuestro proyecto:
 
 ```html
-<script src="span-navigation.js"></script>
-
+<script src="span-navigation.js"></script>```
+```
 ---
 
 ## **Uso básico**
-Uso básico
+
 Cread un menú con enlaces a las secciones que queréis mostrar:
 
-````html
+```html
 
 <div id="menu">
     <a href="#seccion1">Sección 1</a>
@@ -37,12 +37,4 @@ Cread un menú con enlaces a las secciones que queréis mostrar:
 
 <div id="seccion1" class="pg" style="background-color: red;">Contenido de la Sección 1</div>
 <div id="seccion2" class="pg" style="background-color: blue;">Contenido de la Sección 2</div>
-Inicializad la navegación en vuestro archivo JavaScript:
-
-javascript
-Copiar código
-new Navegacion({
-    enlaces: '#menu',
-    inicio: '#seccion1',
-    duracionTransicion: 1000
-});
+```
